@@ -277,6 +277,12 @@ ul{
 .single-demo:hover .demo-img a::after {
 	opacity: .7;
 }
+
+.demo-img > a > img {
+  height:250px !important;
+  width:100% !important;
+}
+
 .demo-img > a::before {
 	color: #fff;
 	content: "Live Preview";
@@ -417,5 +423,4 @@ ul{
 .feature-area {
   background: #131619 none repeat scroll 0 0;
 }
-
 
