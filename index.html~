@@ -39,8 +39,8 @@
 	<meta name="twitter:site" content="@MewW6m_" />
 	<meta property="og:url" content="https://meww6m.github.io/" />
 	<meta property="og:title" content="MewW6m Github Pages" />
-	<meta property="og:description" content="MewW6m・ｽﾌポ・ｽ[・ｽg・ｽt・ｽH・ｽ・ｽ・ｽI・ｽT・ｽC・ｽg" />
-	<meta property="og:image" content="./img/icon.png" />
+	<meta property="og:description" content="MewW6mのポートフォリオサイトです" />
+	<meta property="og:image" content="https://meww6m.github.io//img/icon.png" />
 </head>
 <body>
 	<!-- Hero
@@ -54,8 +54,8 @@
 							<div class="row">
 								<div class="col-xs-12">
 									<h1>MewW6m</h1>
-									<h3>System Design Documentations<br>By Github Pages And Gitbooks</h3>
-									<p><span>Programs</span>/<span>Documents</span></p>			
+									<h3>My Portfolio Site<br>Show making Applications</h3>
+									<p><span>Code</span>/<span>Documents</span>/<span>Application</span></p>			
 									<a href="https://github.com/MewW6m/" class="buy-template">GoTo GitHub</a>
 								</div>
 							</div>
@@ -110,7 +110,7 @@
 							<div class="demo-link">
 								<a href="https://github.com/MewW6m/SMARTKONECO" title="コード"><i class="fa fa-code" aria-hidden="true"></i></a>
 								<!--<a href="" title="ドキュメント"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>-->
-								<a href="" title="アプリ"><i class="fa fa-mobile" aria-hidden="true"></i></a>
+								<a href="https://play.google.com/store/apps/details?id=yoshihirof.smartkoneco&hl=ja" title="アプリ"><i class="fa fa-mobile" aria-hidden="true"></i></a>
 							</div>
 						</div>
 					</div>
@@ -125,7 +125,7 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="section-title text-center col-xs-12">
-						<h1>MewW6m Feature</h1>
+						<h1>About</h1>
 						<p>There are skills, knowledges and qualifications.</p>
 					</div>
 					<div class="feature-list col-xs-12">
@@ -152,7 +152,7 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="footer-logo col-xs-12 text-center">
-						<h2>MewW6m</h2>
+						<h2>Thanks for visiting</h2>
 					</div>
 					<div class="footer-social col-xs-12 text-center">
 						<!--https://fontawesome.com/v4.7.0/icons/-->
