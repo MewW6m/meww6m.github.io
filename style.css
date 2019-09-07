@@ -240,6 +240,7 @@ ul{
     transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
+    box-shadow: 0px 1px 1px 0px rgb(100,100,100);
 }
 .single-demo:hover{
 	box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.2);
@@ -314,6 +315,7 @@ ul{
 	background: #131619 none repeat scroll 0 0;
 	border-top: 1px solid #fb9902;
 	padding: 30px 0;
+	position:relative;
 }
 .demo-content h3 {
 	font-size: 14px;
@@ -343,6 +345,19 @@ ul{
 .btn-white:hover {
   box-shadow: 0 8px 10px #666;
 } 
+.demo-link{
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    top: 26px;
+}
+.demo-link .fa-mobile{
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
 /*----------------------------------------*/
 /*  9.  Feature Area
 /*----------------------------------------*/

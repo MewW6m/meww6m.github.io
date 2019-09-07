@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="ja">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -39,7 +39,7 @@
 	<meta name="twitter:site" content="@MewW6m_" />
 	<meta property="og:url" content="https://meww6m.github.io/" />
 	<meta property="og:title" content="MewW6m Github Pages" />
-	<meta property="og:description" content="MewW6m�̃|�[�g�t�H���I�T�C�g" />
+	<meta property="og:description" content="MewW6m・ｽﾌポ・ｽ[・ｽg・ｽt・ｽH・ｽ・ｽ・ｽI・ｽT・ｽC・ｽg" />
 	<meta property="og:image" content="./img/icon.png" />
 </head>
 <body>
@@ -73,60 +73,45 @@
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="single-demo text-center">
 						<div class="demo-img">
-							<a target="_blank" href="tattoo/index.html"><img src="./img/portfolios/kta40thx.png" alt="" /></a>
+							<a target="_blank" href="https://github.com/MewW6m/kta40thx"><img src="./img/portfolios/kta40thx.png" alt="" /></a>
 						</div>
 						<div class="demo-content">
-							<h3><a href="tattoo/index.html" target="_blank">KTA old Homepage</a></h3>
+							<h3><a href="https://github.com/MewW6m/kta40thx" target="_blank">KTA old Homepage</a></h3>
+							<div class="demo-link">
+								<a href="https://github.com/MewW6m/kta40thx" title="コード"><i class="fa fa-code" aria-hidden="true"></i></a>
+								<!--<a href="" title="ドキュメント"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>-->
+								<a href="http://gms.gdl.jp/~yoshihiro/kta40thx" title="アプリ"><i class="fa fa-mobile" aria-hidden="true"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="single-demo text-center">
 						<div class="demo-img">
-							<a target="_blank" href="tattoo/index2.html"><img src="./img/portfolios/sbzmc.png" alt="" /></a>
+							<a target="_blank" href="https://github.com/MewW6m/SBZMC"><img src="./img/portfolios/sbzmc.png" alt="" /></a>
 						</div>
 						<div class="demo-content">
-							<h3><a href="tattoo/index2.html" target="_blank">SBZMC</a></h3>
+							<h3><a href="https://github.com/MewW6m/SBZMC" target="_blank">SBZMC</a></h3>
+							<div class="demo-link">
+								<a href="https://github.com/MewW6m/SBZMC" title="コード"><i class="fa fa-code" aria-hidden="true"></i></a>
+								<!--<a href="" title="ドキュメント"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>-->
+								<a href="http://gms.gdl.jp/~yoshihiro/sbzmc/" title="アプリ"><i class="fa fa-mobile" aria-hidden="true"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="single-demo text-center">
 						<div class="demo-img">
-							<a target="_blank" href="tattoo/index3.html"><img src="img/demo/home3.jpg" alt="" /></a>
+							<a target="_blank" href="https://github.com/MewW6m/SMARTKONECO"><img src="img/portfolios/SMARTKONECO.PNG" alt="" /></a>
 						</div>
 						<div class="demo-content">
-							<h3><a href="tattoo/index3.html" target="_blank">Home Page Three</a></h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="single-demo text-center">
-						<div class="demo-img">
-							<a target="_blank" href="tattoo/blog.html"><img src="img/demo/blog.jpg" alt="" /></a>
-						</div>
-						<div class="demo-content">
-							<h3><a href="tattoo/blog.html" target="_blank">Blog Page</a></h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="single-demo text-center">
-						<div class="demo-img">
-							<a target="_blank" href="tattoo/blog2.html"><img src="img/demo/blog2.jpg" alt="" /></a>
-						</div>
-						<div class="demo-content">
-							<h3><a href="tattoo/blog2.html" target="_blank">Blog Two Column</a></h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="single-demo text-center">
-						<div class="demo-img">
-							<a target="_blank" href="tattoo/blog-left.html"><img src="img/demo/blog-left.jpg" alt="" /></a>
-						</div>
-						<div class="demo-content">
-							<h3><a href="tattoo/blog-left.html" target="_blank">Blog Left Sidebar</a></h3>
+							<h3><a href="https://github.com/MewW6m/SMARTKONECO" target="_blank">SMARTKONECO</a></h3>
+							<div class="demo-link">
+								<a href="https://github.com/MewW6m/SMARTKONECO" title="コード"><i class="fa fa-code" aria-hidden="true"></i></a>
+								<!--<a href="" title="ドキュメント"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>-->
+								<a href="" title="アプリ"><i class="fa fa-mobile" aria-hidden="true"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -214,9 +199,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <!-- Main JS
 ============================================ -->
 <script src="js/main.js"></script>
-<style>
-@media screen and (max-width: 480px) {                                       .footer-bottom p{ font-size:2vw !important; }                                }     
-</style>
-
 </body>
 </html>
