@@ -175,7 +175,7 @@ ul{
 }
 @media screen and ( max-width:480px) {
 .hero-wrapper {
-	height: 100vh !important;
+	height: 500px !important;
 }
 }
 
