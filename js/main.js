@@ -18,6 +18,13 @@
 	});
 
 })(jQuery);	
+
+// 置き換え
+var spans = document.getElementById("intro-spans");
+if(window.innerWidth < 480){
+	spans.innerHTML = spans.innerHTML.replace(/>\/</g, "><br><")
+}
+// Chart.js
 var ctx1 = document.getElementById("myChart1");
 var ctx2 = document.getElementById("myChart2");
 var ctx3 = document.getElementById("myChart3");
