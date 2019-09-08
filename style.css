@@ -369,12 +369,13 @@ ul{
     font-weight: 500;
     font-size: 30px;
 }
+.feature-list{
+  margin-bottom: 20px;
+}
 .feature-list ul li {
+  text-align:center;
   display: block;
-  float: left;
-  width: 33.33%;
   line-height: 36px;
-  text-transform: capitalize;
 }
 .feature-list ul li::before {
   color: #fb9902;
