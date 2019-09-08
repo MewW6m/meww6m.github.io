@@ -382,6 +382,18 @@ ul{
   content: "➞";
   margin-right: 10px;
 }
+@media screen and ( max-width:480px) {
+  .bio-charts{
+    position: relative;
+    right: 110px;
+  }
+  .bio-charts > .chart-container{
+    width:500px !important;
+  }
+  .bio-charts > .chart-container:last-child{
+    right: 110px;
+  }
+}
 /*----------------------------------------*/
 /*  10.  Footer Area
 /*----------------------------------------*/
@@ -394,7 +406,7 @@ ul{
 }
 .footer-logo h2 {
     color: #fff;
-    font-size: 40px;
+    font-size: 20px;
     margin: 0;
     text-transform: uppercase;
     font-weight: 700;
