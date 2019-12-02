@@ -116,6 +116,21 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="single-demo text-center">
+						<div class="demo-img">
+							<a target="_blank" href="https://react-acupuncture.com/"><img src="img/portfolios/reacuacunpunture.png" alt="" /></a>
+						</div>
+						<div class="demo-content">
+							<h3><a href="https://react-acupuncture.com/" target="_blank">商用HP作成</a></h3>
+							<div class="demo-link">
+								<!--<a href="" title="コード"><i class="fa fa-code" aria-hidden="true"></i></a>-->
+								<!--<a href="" title="ドキュメント"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>-->
+								<a href="https://react-acupuncture.com/" title="アプリ"><i class="fa fa-mobile" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -183,11 +198,10 @@
 						<!--https://fontawesome.com/v4.7.0/icons/-->
 						<a href="https://twitter.com/MewW6m_" title="Twitter"><i class="fa fa-twitter"></i></a>
 						<a href="https://qiita.com/MewW6m" title="Qitta"><i class="fa fa-quora"></i></a>
-						<a href="https://meww6m.qrunch.io/" title="Qrunch"><i class="fa fa-pencil-square-o
-								"></i></a>
+						<a href="https://meww6m.qrunch.io/" title="Qrunch"><i class="fa fa-pencil-square-o"></i></a>
 						<a href="https://github.com/MewW6m/" title="Github"><i class="fa fa-github-alt"></i></a>
-						<a href="http://gms.gdl.jp/~yoshihiro/" title="Site1"><i class="fa fa-university"></i></a>
-						<a href="http://1gk4072y.starfree.jp/" title="Site2"><i class="fa fa-university"></i></a>
+						<a href="http://gms.gdl.jp/~yoshihiro/" title="Site1"><i class="fa fa-external-link "></i></a>
+						<a href="http://1gk4072y.starfree.jp/" title="Site2"><i class="fa  fa-external-link-square"></i></a>
 					</div>
 				</div>
 			</div>
