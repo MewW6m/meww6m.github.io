@@ -1,0 +1,8 @@
+#about{
+    background-repeat: no-repeat;
+    height: 100vh;
+    background: url(../img/back-town.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
