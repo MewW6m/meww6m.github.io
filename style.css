@@ -30,10 +30,10 @@ a, button{
  }
 a, a::before, a::after, i, button, img, input,
 *::before, *::after {
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.1s ease 0s;
+  -moz-transition: all 0.1s ease 0s;
+  -o-transition: all 0.1s ease 0s;
+  transition: all 0.1s ease 0s;
 }
 *:focus {
   outline:0px solid
@@ -44,7 +44,8 @@ a:focus {
   text-decoration: none;
 }
 a:hover {
-  color: #fb9902;
+  color: #fb9902 !important;
+  font-weight: bold;
   text-decoration: none;
 }
 ul{
@@ -129,8 +130,8 @@ ul{
   padding-bottom: 90px !important;
 }
 .padding-90 {
-  padding-bottom: 90px !important;
-  padding-top: 90px !important;
+  padding-bottom: 40px !important;
+  padding-top: 40px !important;
 }
 .overlay {
   background: rgba(0,0,0,0.9);
@@ -249,7 +250,7 @@ ul{
 }
 .demo-area {
   background: #0d0f11 none repeat scroll 0 0;
-  padding-top: 90px;
+  padding-top: 40px;
 }
 .demo-img {
   background: rgba(0, 0, 0, 0) none no-repeat scroll center top / cover ;
@@ -454,3 +455,9 @@ ul{
   background: #131619 none repeat scroll 0 0;
 }
 
+.f_section_title{
+  color:white;
+  width: 100% !important;
+  text-align: center !important;
+  padding-bottom: 40px;
+}
