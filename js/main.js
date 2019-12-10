@@ -124,7 +124,7 @@ setting4.data.datasets[1].data = [3, 0, 0, 1, 1, 4, 1, 3]
 var myRadarChart4 = new Chart(ctx4, setting4);
 $('.bio-charts .f_section_title').on('click', function() {
 	$('.bio-charts .f_section_title').html("Will Skill");
-	defaultSettings.optioins.legend.scale.ticks.max = 10
+	defaultSettings.options.scale.ticks.max = 10
 	var setting1 = JSON.parse(JSON.stringify(defaultSettings));
 	var setting2 = JSON.parse(JSON.stringify(defaultSettings));
 	var setting3 = JSON.parse(JSON.stringify(defaultSettings));
