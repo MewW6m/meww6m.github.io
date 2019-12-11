@@ -74,7 +74,7 @@ var defaultSettings = {
 			ticks: {
 				display: true,
 				max: 4,
-				maxTicksLimit: 6,
+				maxTicksLimit: 10,
 				fontColor: "white",
 				backdropColor: 'transparent' // should render black behind the text
 			},
@@ -100,9 +100,9 @@ var defaultSettings = {
 }
 var setting1 = JSON.parse(JSON.stringify(defaultSettings));
 setting1.options.title.text = "ProgrammingLanguage"
-setting1.data.labels = ['HTML/CSS/JS', 'PHP', 'Python', 'VB.net', 'JAVA', 'C#', 'C/C++', 'Perl']
-setting1.data.datasets[0].data = [2, 0, 0, 2, 0.5, 0, 0, 0]
-setting1.data.datasets[1].data = [4, 1, 3, 2, 1, 0.5, 1, 1]
+setting1.data.labels = ['HTML/CSS/JS', 'PHP', 'Python', 'VB.net', 'JAVA', 'C#']
+setting1.data.datasets[0].data = [2, 1, 0, 2, 0.5,0]
+setting1.data.datasets[1].data = [4, 1, 3, 2, 1,0]
 var myRadarChart1 = new Chart(ctx1, setting1);
 var setting2 = JSON.parse(JSON.stringify(defaultSettings));
 setting2.options.title.text = "FrameWork"
@@ -111,10 +111,10 @@ setting2.data.datasets[0].data = [0, 0, 0, 0, 0, 0, 0, 1, 0.5]
 setting2.data.datasets[1].data = [2, 1, 1, 0.5, 1, 1, 3, 1, 0]
 var myRadarChart2 = new Chart(ctx2, setting2);
 var setting3 = JSON.parse(JSON.stringify(defaultSettings));
-setting3.options.title.text = "AppPlatform"
-setting3.data.labels = ['Web', 'Android', 'Linux', 'WindowsServer', 'WindowsForm']
-setting3.data.datasets[0].data = [2, 0, 0, 2, 1]
-setting3.data.datasets[1].data = [4, 1, 3, 1, 0]
+setting3.options.title.text = "SystemProcess"
+setting3.data.labels = ['RD','BD','DD','PG','UT','IT','Rel.']
+setting3.data.datasets[0].data = [0, 1, 0.5, 1, 1, 1, 0.5]
+setting3.data.datasets[1].data = [0, 0, 0, 4, 0, 0, 0]
 var myRadarChart3 = new Chart(ctx3, setting3);
 var setting4 = JSON.parse(JSON.stringify(defaultSettings));
 setting4.options.title.text = "DevTools"
@@ -124,17 +124,17 @@ setting4.data.datasets[1].data = [3, 0, 0, 1, 1, 4, 1, 3]
 var myRadarChart4 = new Chart(ctx4, setting4);
 $('.bio-charts .f_section_title').on('click', function() {
 	$('.bio-charts .f_section_title').html("Will Skill");
-	defaultSettings.options.scale.ticks.max = 10
-	var setting1 = JSON.parse(JSON.stringify(defaultSettings));
-	var setting2 = JSON.parse(JSON.stringify(defaultSettings));
-	var setting3 = JSON.parse(JSON.stringify(defaultSettings));
-	var setting4 = JSON.parse(JSON.stringify(defaultSettings));
-	setting1.data.datasets[0].data = [4, 0, 0, 2, 0.5, 0, 0, 0]
-	setting1.data.datasets[1].data = [4, 1, 3, 2, 1, 0.5, 1, 1]
+	$('#yearspan').html("( 2015 ~ 2025 )");
+setting1.options.scale.ticks.max = 6;
+setting2.options.scale.ticks.max = 6;
+setting3.options.scale.ticks.max = 6;
+setting4.options.scale.ticks.max = 6;
+	setting1.data.datasets[0].data = [4, 1, 2, 2, 4,0]
+	setting1.data.datasets[1].data = [4, 1, 3, 2, 1, 1]
 	setting2.data.datasets[0].data = [0, 0, 0, 0, 0, 0, 0, 1, 0.5]
 	setting2.data.datasets[1].data = [2, 1, 1, 0.5, 1, 1, 3, 1, 0]
-	setting3.data.datasets[0].data = [2, 0, 0, 2, 1]
-	setting3.data.datasets[1].data = [4, 1, 3, 1, 0]
+        setting3.data.datasets[0].data = [1, 3, 4, 4, 4, 3, 2]
+        setting3.data.datasets[1].data = [0, 2, 2, 6, 2, 2, 0]
 	setting4.data.datasets[0].data = [0, 2, 0.5, 2, 0, 0, 2, 0]
 	setting4.data.datasets[1].data = [3, 0, 0, 1, 1, 4, 1, 3]
 	var myRadarChart1 = new Chart(ctx1, setting1);
