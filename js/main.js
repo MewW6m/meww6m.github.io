@@ -142,3 +142,7 @@ setting4.options.scale.ticks.max = 6;
 	var myRadarChart3 = new Chart(ctx3, setting3);
 	var myRadarChart4 = new Chart(ctx4, setting4);
 });
+$("#webVenture").on('click', function(){
+    $("#myModalLabel").html("学生時代");
+    $(".modal-body").html("");
+});

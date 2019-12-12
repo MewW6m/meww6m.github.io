@@ -131,9 +131,9 @@
 				<div class="cd-timeline__block">
 					<div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/imac.jpg);"> </div>
 					<div class="cd-timeline__content text-component">
-						<h2>学生時代<br>Webベンチャーでプログラマーアルバイト</h2>
-						<p class="color-contrast-medium">本文</p>
-						<div class="flex justify-between items-center"> <span class="cd-timeline__date">16/08-17/06</span> <a href="#0" class="btn btn--subtle btn-primary">Read more</a> </div>
+						<h2>学生時代</h2>
+						<p class="color-contrast-medium">Webベンチャーでプログラマーアルバイト</p>
+						<div class="flex justify-between items-center"> <span class="cd-timeline__date">16/08-17/06</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="webVenture">Read more</a> </div>
 					</div>
 				</div>
 				<div class="cd-timeline__block">
@@ -141,23 +141,31 @@
 					<div class="cd-timeline__content text-component">
 						<h2>銀行系Sier入社</h2>
 						<p class="color-contrast-medium">本文</p>
-						<div class="flex justify-between items-center"> <span class="cd-timeline__date">19/04-19/07</span> <a href="#0" class="btn btn--subtlei btn-primary">Read more</a> </div>
+						<div class="flex justify-between items-center"> <span class="cd-timeline__date">19/04-19/07</span> <a href="#0" class="btn btn--subtlei btn-primary" data-toggle="modal" data-target="#careerdetail" id="enterSier">Read more</a> </div>
 					</div>
 				</div>
 				<div class="cd-timeline__block">
 					<div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/excel.png);"></div>
 					<div class="cd-timeline__content text-component">
-						<h2>小規模Webシステム改訂案件参画</h2>
-						<p class="color-contrast-medium">本文</p>
-						<div class="flex justify-between items-center"> <span class="cd-timeline__date">19/11-20/03</span> <a href="#0" class="btn btn--subtle btn-primary">Read more</a> </div>
+						<h2>１プロジェクト目</h2>
+						<p class="color-contrast-medium">小規模Webシステム改訂案件参画</p>
+						<div class="flex justify-between items-center"> <span class="cd-timeline__date">19/11-20/03</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="firstProject">Read more</a> </div>
 					</div>
 				</div>
 				<div class="cd-timeline__block">
 					<div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/pccode.jpg);"></div>
 					<div class="cd-timeline__content text-component">
-						<h2>中規模Webシステム新規画面構築プロジェクト参画</h2>
+						<h2>２プロジェクト目</h2>
+						<p class="color-contrast-medium">中規模Webシステム新規画面構築プロジェクト参画</p>
+						<div class="flex justify-between items-center"> <span class="cd-timeline__date">20/03-21/01</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="secondProject">Read more</a> </div>
+					</div>
+				</div>
+				<div class="cd-timeline__block">
+					<div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/2comp.png);"></div>
+					<div class="cd-timeline__content text-component">
+						<h2>SES入社</h2>
 						<p class="color-contrast-medium">本文</p>
-						<div class="flex justify-between items-center"> <span class="cd-timeline__date">20/03-21/01</span> <a href="#0" class="btn btn--subtle btn-primary">Read more</a> </div>
+						<div class="flex justify-between items-center"> <span class="cd-timeline__date">21/02-</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="enterSES">Read more</a> </div>
 					</div>
 				</div>
 				<div class="cd-timeline__block">
@@ -165,7 +173,7 @@
 					<div class="cd-timeline__content text-component">
 						<h2>next...</h2>
 						<p class="color-contrast-medium">本文</p>
-						<div class="flex justify-between items-center"> <span class="cd-timeline__date">21/02-</span> <a href="#0" class="btn btn--subtle btn-primary">Read more</a> </div>
+						<div class="flex justify-between items-center"> <span class="cd-timeline__date">21/02-</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="nextFuture">Read more</a> </div>
 					</div>
 				</div>
 			</div>
@@ -229,16 +237,21 @@
 			</div>
 		</div>
 	</div>
-	<div class="modal fade" id="modal_box">
-		  <div class="modal-dialog">
-			      <div class="modal-content">
-				            <div class="box_inner">
-						<p>てすとでーーーす</p>
-						<p class="text-center"><a class="btn btn-primary" data-dismiss="modal" href="#">閉じる</a></p>
-					    </div>
+	<div class="modal fade" id="careerdetail" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4><div class="modal-title" id="myModalLabel"></div></h4>
+				</div>
+				<div class="modal-body">
+					<div></div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">閉じる</button>
 				</div>
 			</div>
 		</div>
+	</div>
 	<!-- JS -->
 	<!-- jQuery JS
 ============================================ -->

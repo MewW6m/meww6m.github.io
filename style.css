@@ -382,7 +382,7 @@ ul{
 }
 .feature-list ul li::before {
   color: #fb9902;
-  content: "➞";
+  content: "➞"";
   margin-right: 10px;
 }
 @media screen and ( max-width:480px) {
@@ -460,4 +460,24 @@ ul{
   width: 100% !important;
   text-align: center !important;
   padding-bottom: 40px;
+}
+.btn-primary:hover{
+     color: #fff !important;
+     background-color: #fb9902 !important;
+     border-color: #fb9902 !important;
+     font-weight:normal;
+}
+.btn-primary:active, .btn-primary:visited, .btn-primary:link{
+    background-color: var(--color-contrast-low, #d3d3d4);
+    color: #333;
+}
+.modal-dialog button{
+    background-color: var(--color-contrast-low, #d3d3d4) !important;
+    color: #333 !important;
+}
+.modal-dialog button:hover{
+     color: #fff !important;
+     background-color: #fb9902 !important;
+     border-color: #fb9902 !important;
+     font-weight:normal;
 }
