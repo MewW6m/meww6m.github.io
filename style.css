@@ -481,3 +481,6 @@ ul{
      border-color: #fb9902 !important;
      font-weight:normal;
 }
+.buy-template:hover{
+    color:white !important;
+}
