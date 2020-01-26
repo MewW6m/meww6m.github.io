@@ -326,7 +326,7 @@ ul{
 .demo-content h3 {
 	font-size: 14px;
 	margin: 0;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-weight:500;
 }
 .demo-content h3 a {
@@ -341,7 +341,7 @@ ul{
     line-height: 21px;
     margin-top: 5px;
     padding: 7px 16px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     border-radius: 4px;
     transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
