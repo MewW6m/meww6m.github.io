@@ -282,9 +282,12 @@ ul{
 	opacity: .7;
 }
 
-.demo-img > a > img {
+.demo-img, .demo-img > a, .demo-img > a > img {
   height:250px !important;
   width:100% !important;
+}
+.demo-img > a {
+  background:black !important;
 }
 
 .demo-img > a::before {
