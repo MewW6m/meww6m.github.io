@@ -487,3 +487,8 @@ ul{
 .buy-template:hover{
     color:white !important;
 }
+
+.ptb-100 > .row{
+    max-width: 1400px;
+    margin: auto !important;
+}
