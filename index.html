@@ -28,7 +28,6 @@
 	============================================ -->
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/header.css">
-	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="lib/vertical_timeline_master/css/style.css">
 	<!-- Responsive CSS 
 	============================================ -->
@@ -37,16 +36,16 @@
 	============================================ -->
 	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" integrity="sha256-Uv9BNBucvCPipKQ2NS9wYpJmi8DTOEfTA/nH2aoJALw=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/glottologist"></script>
+	<script src="js/setGlottologist.js"></script>
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@MewW6m_" />
 	<meta property="og:url" content="https://meww6m.github.io/" />
 	<meta property="og:title" content="MewW6m Github Pages" />
 	<meta property="og:description" content="MewW6mのポートフォリオサイトです" />
-	<meta property="og:image" content="http://meww6m.github.io/img/icon.png" /> </head>
-
+	<meta property="og:image" content="http://meww6m.github.io/img/icon.png" />
+</head>
 <body>
-	<!-- Hero
-	============================================ -->
 	<div class="hero-wrapper text-center ">
 		<div class="hero-wrapper-text">
 			<div class="hero-content">
@@ -56,8 +55,14 @@
 							<div class="row">
 								<div class="col-xs-12">
 									<h1>MewW6m</h1>
-									<h3>My Portfolio Site</h3>
-									<p id="intro-spans"><span>Code <i class="fa fa-code" aria-hidden="true"></i></span>/<span>Documents <i class="fa fa-file-text-o" aria-hidden="true"></i></span>/<span>Application <i class="fa fa-mobile" aria-hidden="true"></i></span></p> <a href="https://github.com/MewW6m/" class="buy-template">GoTo GitHub</a> </div>
+									<h3 glot-model="title">My Portfolio Site</h3>
+									<p id="intro-spans">
+										<span><span glot-model="code1">Code</span> <i class="fa fa-code" aria-hidden="true"></i></span>
+										/
+										<span><span glot-model="doc1">Documents</span> <i class="fa fa-file-text-o" aria-hidden="true"></i></span>
+										/
+										<span><span glot-model="app1">Application</span> <i class="fa fa-mobile" aria-hidden="true"></i></span>
+									</p> <a href="https://github.com/MewW6m/" class="buy-template" glot-model="togithub">GOTO GITHUB</a> </div>
 							</div>
 						</div>
 					</div>
@@ -69,7 +74,7 @@
 	============================================ -->
 	<div class="demo-area">
 		<div class="container ptb-100">
-			<h2 class="f_section_title">Portfolios</h2>
+			<h2 class="f_section_title" glot-model="pftitle">Portfolios</h2>
 			<div class="row">
 				<div class="col-md-4 col-sm-6 col-xs-12">
 					<div class="single-demo text-center">
@@ -77,7 +82,7 @@
 							<a target="_blank" href="https://github.com/MewW6m/kta40thx"><img src="./img/portfolios/kta40thx.png" alt="" /></a>
 						</div>
 						<div class="demo-content">
-							<h3><a href="https://github.com/MewW6m/kta40thx" target="_blank">駒澤大学旧ホームページ</a></h3>
+							<h3><a href="https://github.com/MewW6m/kta40thx" target="_blank" glot-model="astronomy">Komazawa University Astronomy Club HP</a></h3>
 							<div class="demo-link">
 								<a href="https://github.com/MewW6m/kta40thx" title="コード"><i class="fa fa-code" aria-hidden="true"></i></a>
 								<!--<a href="" title="ドキュメント"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>-->
@@ -121,7 +126,7 @@
 							<a target="_blank" href="https://react-acupuncture.com/"><img src="img/portfolios/reacuacunpunture.png" alt="" /></a>
 						</div>
 						<div class="demo-content">
-							<h3><a href="https://react-acupuncture.com/" target="_blank">鍼灸院ホームページ</a></h3>
+							<h3><a href="https://react-acupuncture.com/" target="_blank" glot-model="hari">鍼灸院ホームページ</a></h3>
 							<div class="demo-link">
 								<!--<a href="" title="コード"><i class="fa fa-code" aria-hidden="true"></i></a>-->
 								<a href="https://meww6m.github.io/ReactAcupuncture/" title="ドキュメント"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
@@ -136,7 +141,7 @@
 							<a target="_blank" href=""><img src="" alt="" /></a>
 						</div>
 						<div class="demo-content">
-							<h3><a href="" target="_blank">MinesO(製作中)</a></h3>
+							<h3><a href="" target="_blank" glot-model="mineso">MinesO(製作中)</a></h3>
 							<div class="demo-link">
 								<a href="https://github.com/MewW6m/MinesO" title="コード"><i class="fa fa-code" aria-hidden="true"></i></a>
 								<a href="https://meww6m.github.io/MinesO/" title="ドキュメント"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
@@ -152,54 +157,54 @@
 	============================================ -->
 	<div id="about">
 		<section class="cd-timeline js-cd-timeline">
-				<h2 class="f_section_title">Career</h2>
+				<h2 class="f_section_title" glot-model="crtitle">Career</h2>
 			<div class="container max-width-lg cd-timeline__container">
 				<div class="cd-timeline__block">
 					<div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/imac.jpg);"> </div>
 					<div class="cd-timeline__content text-component">
-						<h2>学生時代</h2>
-						<p class="color-contrast-medium">Webベンチャーでプログラマーアルバイト</p>
-						<div class="flex justify-between items-center"> <span class="cd-timeline__date">16/08-17/06</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="webVenture">Read more</a> </div>
+						<h2 glot-model="sc">School Days</h2>
+						<p class="color-contrast-medium" glot-model="sc1">Programmer part-time job at Web venture</p>
+						<div class="flex justify-between items-center"> <span class="cd-timeline__date">16/08-17/06</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="webVenture" glot-model="readmore">Read more</a> </div>
 					</div>
 				</div>
 				<div class="cd-timeline__block">
 					<div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/suits.jpg);"></div>
 					<div class="cd-timeline__content text-component">
-						<h2>銀行系Sier入社</h2>
-						<p class="color-contrast-medium">本文</p>
-						<div class="flex justify-between items-center"> <span class="cd-timeline__date">18/04-18/07</span> <a href="#0" class="btn btn--subtlei btn-primary" data-toggle="modal" data-target="#careerdetail" id="enterSier">Read more</a> </div>
+						<h2 glot-model="jab">Join a Bank Sier Company</h2>
+						<p class="color-contrast-medium"></p>
+						<div class="flex justify-between items-center"> <span class="cd-timeline__date">18/04-18/07</span> <a href="#0" class="btn btn--subtlei btn-primary" data-toggle="modal" data-target="#careerdetail" id="enterSier" glot-model="readmore">Read more</a> </div>
 					</div>
 				</div>
 				<div class="cd-timeline__block">
 					<div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/excel.png);"></div>
 					<div class="cd-timeline__content text-component">
-						<h2>１プロジェクト目</h2>
-						<p class="color-contrast-medium">小規模Webシステム改訂案件参画</p>
-						<div class="flex justify-between items-center"> <span class="cd-timeline__date">18/11-19/03</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="firstProject">Read more</a> </div>
+						<h2 glot-model="fir">First project</h2>
+						<p class="color-contrast-medium" glot-model="fir1">Participated in a small-scale Web system revision</p>
+						<div class="flex justify-between items-center"> <span class="cd-timeline__date">18/11-19/03</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="firstProject" glot-model="readmore">Read more</a> </div>
 					</div>
 				</div>
 				<div class="cd-timeline__block">
 					<div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/pccode.jpg);"></div>
 					<div class="cd-timeline__content text-component">
-						<h2>２プロジェクト目</h2>
-						<p class="color-contrast-medium">中規模Webシステム新規画面構築プロジェクト参画</p>
-						<div class="flex justify-between items-center"> <span class="cd-timeline__date">19/03-20/01</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="secondProject">Read more</a> </div>
+						<h2 glot-model="sec">Second project</h2>
+						<p class="color-contrast-medium" glot-model="sec1">Participation in new screen construction project for medium-scale Web system</p>
+						<div class="flex justify-between items-center"> <span class="cd-timeline__date">19/03-20/01</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="secondProject" glot-model="readmore">Read more</a> </div>
 					</div>
 				</div>
 				<div class="cd-timeline__block">
 					<div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/2comp.png);"></div>
 					<div class="cd-timeline__content text-component">
-						<h2>SES入社</h2>
+						<h2 glot-model="jas">Join a System Engineering Service Company</h2>
 						<p class="color-contrast-medium"></p>
-						<div class="flex justify-between items-center"> <span class="cd-timeline__date">20/02-20/02</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="enterSES">Read more</a> </div>
+						<div class="flex justify-between items-center"> <span class="cd-timeline__date">20/02-20/02</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="enterSES" glot-model="readmore">Read more</a> </div>
 					</div>
 				</div>
 				<div class="cd-timeline__block">
 					<div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/java-seeklogo.com.svg);"></div>
 					<div class="cd-timeline__content text-component">
-						<h2>某大手SIer会社派遣</h2>
-						<p class="color-contrast-medium">2つの中規模システム改修案件にプログラマとして携わる</p>
-						<div class="flex justify-between items-center"> <span class="cd-timeline__date">20/03-現在</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="nextFuture">Read more</a> </div>
+						<h2 glot-model="dbs">Dispatch Big Sier Company</h2>
+						<p class="color-contrast-medium" glot-model="dbs1">Engaged as a programmer in two medium-scale system renovation projects</p>
+						<div class="flex justify-between items-center"> <span class="cd-timeline__date">20/03-現在</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="nextFuture" glot-model="readmore">Read more</a> </div>
 					</div>
 				</div>
 			</div>
@@ -210,17 +215,21 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="bio-charts">
-						<h2 class="f_section_title">Skill</h2>
+						<h2 class="f_section_title" glot-model="sktitle">Skill</h2>
 						<div class="chart-container col-lg-6" style="position:relative;">
+							<h4 glot-model="pgl">ProgrammingLanguage</h4>
 							<canvas id="myChart1"></canvas>
 						</div>
 						<div class="chart-container col-lg-6" style="position:relative;">
+							<h4 glot-model="fw">FrameWork</h4>
 							<canvas id="myChart2"></canvas>
 						</div>
 						<div class="chart-container col-lg-6" style="position:relative;">
+							<h4 glot-model="sp">SystemProcess</h4>
 							<canvas id="myChart3"></canvas>
 						</div>
 						<div class="chart-container col-lg-6" style="position:relative;">
+							<h4 glot-model="dev">DevTools</h4>
 							<canvas id="myChart4"></canvas>
 						</div>
 						<div class="chart-container col-xs-12"> <span id="yearspan" style="float:right;">( 2015 ~ <script>document.write(new Date().getFullYear())</script>)</span> </div>
@@ -236,7 +245,7 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="footer-logo col-xs-12 text-center">
-						<h2>Thanks for visiting</h2> </div>
+						<h2 glot-model="thxsee">Thanks for visiting</h2> </div>
 					<div class="footer-social col-xs-12 text-center">
 						<!--https://fontawesome.com/v4.7.0/icons/--><a href="https://twitter.com/MewW6m_" title="Twitter"><i class="fa fa-twitter"></i></a> <a href="https://qiita.com/MewW6m" title="Qitta"><i class="fa fa-quora"></i></a> <a href="https://meww6m.qrunch.io/" title="Qrunch"><i class="fa fa-pencil-square-o"></i></a> <a href="https://github.com/MewW6m/" title="Github"><i class="fa fa-github-alt"></i></a> <a href="http://gms.gdl.jp/~yoshihiro/" title="Site1"><i class="fa fa-external-link "></i></a> <a href="http://1gk4072y.starfree.jp/" title="Site2"><i class="fa  fa-external-link-square"></i></a> </div>
 				</div>
@@ -279,6 +288,9 @@
 			</div>
 		</div>
 	</div>
+	<div id="languageblock">
+		<span id="jal">日本語</span> / <span id="enl">English</span>
+	</div>
 	<!-- JS -->
 	<!-- jQuery JS
 ============================================ -->
@@ -294,5 +306,4 @@
 	<script src="js/main.js"></script>
 	<script src="lib/vertical_timeline_master/js/main.js"></script>
 </body>
-
 </html>

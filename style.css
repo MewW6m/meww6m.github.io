@@ -205,7 +205,7 @@ ul{
   margin-top: 15px;
 
 }
-.hero-content p span {
+.hero-content > p > span {
   margin: 0 12px;
 }
 .hero-content a {
@@ -491,4 +491,38 @@ ul{
 .ptb-100 > .row{
     max-width: 1400px;
     margin: auto !important;
+}
+
+#about{
+  background-color: rgba(0,0,0,.7);
+  position:relative;
+  font-size:150%;
+}
+
+#about::after {
+  content: '';
+  background:url(img/back-town.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index:-1;
+}
+
+#languageblock {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size:10px;
+}
+
+.bio-charts h4{
+  color:white !important;
+  text-align: center; 
+  position: relative;
+  top: 23px;
 }
