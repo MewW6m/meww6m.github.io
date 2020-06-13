@@ -49,7 +49,7 @@ function glotassigns(glot){ // setLanguageText
     glot.assign('fw', { ja: 'フレームワーク', en: 'FrameWork'});
     glot.assign('sp', { ja: '工程', en: 'SystemProcess'});
     glot.assign('dev', { ja: 'ツール', en: 'DevTools'});
-    glot.assign('thxsee', { ja: 'ご覧頂きありがとうございます', en: 'Thanks for visiting'});
+    glot.assign('thxsee', { ja: 'ご覧頂きありがとうございました', en: 'Thanks for visiting'});
     glot.assign('sc', { ja: '学生時代', en: 'School Days'});
     glot.assign('sc1', { ja: 'Webベンチャーでプログラマーアルバイト', en: 'Programmer part-time job at Web venture'});
     glot.assign('jab', { ja: '銀行系Sier入社', en: 'Join a Bank Sier Company'});
