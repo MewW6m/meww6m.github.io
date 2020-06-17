@@ -73,7 +73,7 @@ var defaultSettings = {
 		scale: {
 			ticks: {
 				display: true,
-				max: 4,
+				max: 3,
 				maxTicksLimit: 10,
 				fontColor: "white",
 				backdropColor: 'transparent' // should render black behind the text
