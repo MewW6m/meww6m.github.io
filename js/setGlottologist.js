@@ -38,6 +38,7 @@ function glotassigns(glot){ // setLanguageText
     glot.assign('pftitle', { ja: '作品', en: 'Portfolios'});
     glot.assign('crtitle', { ja: '経歴', en: 'Career'});
     glot.assign('sktitle', { ja: '技術', en: 'Skill'});
+    glot.assign('sktitle2', { ja: '欲しい技術', en: 'Will Skill'});
     glot.assign('code1', { ja: 'コード', en: 'Code'});
     glot.assign('doc1', { ja: 'ドキュメント', en: 'Document'});
     glot.assign('app1', { ja: 'アプリ', en: 'Application'});

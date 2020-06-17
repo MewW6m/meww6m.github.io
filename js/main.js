@@ -123,12 +123,13 @@ setting4.data.datasets[0].data = [0, 2, 0.5, 2, 0, 0, 2, 0]
 setting4.data.datasets[1].data = [3, 0, 0, 1, 1, 4, 1, 3]
 var myRadarChart4 = new Chart(ctx4, setting4);
 $('.bio-charts .f_section_title').on('click', function() {
-	$('.bio-charts .f_section_title').html("Will Skill");
+	$('#t1').css("display", "none");
+	$('#t2').css("display", "inherit");
 	$('#yearspan').html("( 2015 ~ 2025 )");
-setting1.options.scale.ticks.max = 6;
-setting2.options.scale.ticks.max = 6;
-setting3.options.scale.ticks.max = 6;
-setting4.options.scale.ticks.max = 6;
+	setting1.options.scale.ticks.max = 6;
+	setting2.options.scale.ticks.max = 6;
+	setting3.options.scale.ticks.max = 6;
+	setting4.options.scale.ticks.max = 6;
 	setting1.data.datasets[0].data = [4, 1, 2, 2, 4,0]
 	setting1.data.datasets[1].data = [4, 1, 3, 2, 1, 1]
 	setting2.data.datasets[0].data = [0, 0, 0, 0, 0, 0, 0, 1, 0.5]
