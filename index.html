@@ -246,7 +246,11 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="footer-logo col-xs-12 text-center">
-						<h2 glot-model="thxsee">Thanks for visiting</h2> </div>
+						<h2 glot-model="thxsee">Thanks for visiting</h2>
+					</div>
+					<div class="footer-logo col-xs-12 text-center">
+						<button id="contact" glot-model="contactbutton" data-toggle="modal" data-target="#contactbox" >Contact</button>
+					</div>
 					<div class="footer-social col-xs-12 text-center">
 						<!--https://fontawesome.com/v4.7.0/icons/--><a href="https://twitter.com/MewW6m_" title="Twitter"><i class="fa fa-twitter"></i></a> <a href="https://qiita.com/MewW6m" title="Qitta"><i class="fa fa-quora"></i></a> <a href="https://meww6m.qrunch.io/" title="Qrunch"><i class="fa fa-pencil-square-o"></i></a> <a href="https://github.com/MewW6m/" title="Github"><i class="fa fa-github-alt"></i></a> <a href="http://gms.gdl.jp/~yoshihiro/" title="Site1"><i class="fa fa-external-link "></i></a> <a href="http://1gk4072y.starfree.jp/" title="Site2"><i class="fa  fa-external-link-square"></i></a> </div>
 				</div>
@@ -274,17 +278,25 @@
 			</div>
 		</div>
 	</div>
-	<div class="modal fade" id="careerdetail" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+	<div class="modal fade" id="contactbox" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h4><div class="modal-title" id="myModalLabel"></div></h4>
+					<h4><div class="modal-title" id="myModalLabel">Contact</div></h4>
 				</div>
 				<div class="modal-body">
-					<div></div>
+					<div>
+						<form action="https://mailthis.to/nexwind@yahoo.co.jp" method="POST">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="text" name="name" placeholder="Your name"> 
+							<input type="email" name="_replyto" placeholder="Your email">
+							<textarea name="message" placeholder="Enter your message here"></textarea>
+							<input type="submit" value="Send"> 
+						</form> 
+					</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">閉じる</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>

@@ -61,6 +61,7 @@ function glotassigns(glot){ // setLanguageText
     glot.assign('jas', { ja: 'SES入社', en: 'Join a System Engineering Service Company'});
     glot.assign('dbs', { ja: '某大手SIer会社派遣', en: 'Dispatch Big Sier Company'});
     glot.assign('dbs1', { ja: '2つの中規模システム改修案件にプログラマとして携わる', en: 'Engaged as a programmer in two medium-scale system renovation projects'});
+    glot.assign('contactbutton', { ja: 'お問い合わせ', en: 'Contact'});
 }
 
 var browserLanguage = function() {
