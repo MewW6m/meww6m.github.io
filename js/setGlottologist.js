@@ -61,6 +61,12 @@ function glotassigns(glot){ // setLanguageText
     glot.assign('jas', { ja: 'SES入社', en: 'Join a System Engineering Service Company'});
     glot.assign('dbs', { ja: '某大手SIer会社派遣', en: 'Dispatch Big Sier Company'});
     glot.assign('dbs1', { ja: '2つの中規模システム改修案件にプログラマとして携わる', en: 'Engaged as a programmer in two medium-scale system renovation projects'});
+    glot.assign('psy', { ja: '配送業者向け管理システム新規開発', en: 'Delivery company system System development'});
+    glot.assign('psy1', { ja: '配送業者向け管理システムを新規で1から開発した', en: 'Developed a new management system for delivery companies from scratch'});
+    glot.assign('psys', { ja: '配送業者向け管理システム改修', en: 'Repair of management system for delivery companies'});
+    glot.assign('psys1', { ja: '配送業者向け管理システムの改修(2回)', en: 'Repair of management system for delivery companies (two times)'});
+    glot.assign('voi', { ja: '新規開発案件', en: 'New development project'});
+    glot.assign('voi1', { ja: '新規開発案件', en: 'New development project'});
     glot.assign('contactbutton', { ja: 'お問い合わせ', en: 'Contact'});
 }
 
