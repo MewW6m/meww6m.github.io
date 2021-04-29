@@ -65,9 +65,14 @@ function glotassigns(glot){ // setLanguageText
     glot.assign('psy1', { ja: '配送業者向け管理システムを新規で1から開発した', en: 'Developed a new management system for delivery companies from scratch'});
     glot.assign('psys', { ja: '配送業者向け管理システム改修', en: 'Repair of management system for delivery companies'});
     glot.assign('psys1', { ja: '配送業者向け管理システムの改修(2回)', en: 'Repair of management system for delivery companies (two times)'});
-    glot.assign('voi', { ja: '新規開発案件', en: 'New development project'});
+    glot.assign('voi', { ja: '工事現場向け点呼システムの新規構築', en: 'New construction of roll call system for construction sites'});
     glot.assign('voi1', { ja: '新規開発案件', en: 'New development project'});
     glot.assign('contactbutton', { ja: 'お問い合わせ', en: 'Contact'});
+    glot.assign('yourname', { ja: '氏名', en: 'Your Name'});
+    glot.assign('email', { ja: 'メールアドレス', en: 'Email'});
+    glot.assign('message', { ja: '要件', en: 'Message'});
+    glot.assign('send', { ja: '送信', en: 'Send'});
+    glot.assign('close', { ja: '閉じる', en: 'Close'});
 }
 
 var browserLanguage = function() {

@@ -198,6 +198,8 @@ color: #fff;
 color: #ffffff;
 	   font-size: 20px;
 	   margin-bottom: 20px;
+	   width: calc(100% - 174px);
+	   margin: auto;
 }
 .hero-content p {
 color: #ffffff;
@@ -355,13 +357,24 @@ display:inline-block;
 display: inline-block;
 position: absolute;
 right: 12px;
-top: 26px;
+top: 21px;
 }
 .fa-mobile{
-		font-size: 20px;
-position: relative;
-top: 2px;
-left: 2px;
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+.demo-area .fa-code {
+	font-size: 200%;
+}
+.demo-area .fa-mobile {
+	font-size: 210%;
+}
+.demo-area .fa-file-text-o {
+	font-size: 150%;
+    position: relative;
+    bottom: 1px;
 }
 
 /*----------------------------------------*/
@@ -474,15 +487,18 @@ color: #fff !important;
 		background-color: var(--color-contrast-low, #d3d3d4);
 color: #333;
 }
-.modal-dialog button,  .modal-dialog input[type="submit"]{
+.modal-dialog button,  .modal-dialog button[type="submit"]{
 		background-color: var(--color-contrast-low, #d3d3d4) !important;
 color: #333 !important;
 }
-.modal-dialog button:hover, .modal-dialog input[type="submit"]:hover{
+.modal-dialog button:hover, .modal-dialog button[type="submit"]:hover{
 color: #fff !important;
 	   background-color: #fb9902 !important;
 	   border-color: #fb9902 !important;
 	   font-weight:normal;
+}
+.modal-dialog input[type="text"], .modal-dialog input[type="email"], .modal-dialog textarea,.modal-dialog  label {
+	color: black !important;
 }
 .buy-template:hover{
 color:white !important;
@@ -544,16 +560,12 @@ top: 23px;
 	border: 1px solid #fb9902;
 }
 
-.modal-content form > * {
-	display: list-item;
-	margin: 20px 0;
-}
-
 .modal-content input[type="text"], .modal-content input[type="email"], .modal-content textarea {
 	width: 100%;
 }
 
-.modal-content input[type="submit"] {
+.modal-content button[type="submit"] {
 	width: 50%;
-	margin: auto;
+	margin: 30px auto 0;
+	display: block;
 }
