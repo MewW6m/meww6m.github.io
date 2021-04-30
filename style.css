@@ -568,11 +568,16 @@ top: 23px;
 	width: 100%;
 }
 
-.modal-content button[type="submit"] {
+.modal-content button[type="submit"], #careerdetail .modal-footer button {
 	width: 50%;
 	margin: 30px auto 0;
 	display: block;
 }
+
+#careerdetail .modal-footer button {
+	margin: auto !important;
+}
+
 #careerdetail  .modal-header {
 	background: rgb(30,30,30);
 }
@@ -629,4 +634,9 @@ top: 23px;
 	display: flex !important;
 	justify-content: center;
 	align-items: center;
+}
+
+.modal > div {
+	flex-basis: 80%;
+	max-width: 550px;
 }
