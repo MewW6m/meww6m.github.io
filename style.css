@@ -198,8 +198,6 @@ color: #fff;
 color: #ffffff;
 	   font-size: 20px;
 	   margin-bottom: 20px;
-	   width: calc(100% - 174px);
-	   margin: auto;
 }
 .hero-content p {
 color: #ffffff;
@@ -625,4 +623,10 @@ top: 23px;
 
 #about .career-content {
 	display: none;
+}
+
+.modal.fade.in {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
 }
