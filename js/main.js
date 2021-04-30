@@ -143,7 +143,9 @@ $('.bio-charts .f_section_title').on('click', function() {
 	var myRadarChart3 = new Chart(ctx3, setting3);
 	var myRadarChart4 = new Chart(ctx4, setting4);
 });
-$("#webVenture").on('click', function(){
-    $("#myModalLabel").html("");
-    $(".modal-body").html("");
+
+$('a[data-target="#careerdetail"]').on('click', function(e){
+	$('#careerTitle').text($(this).parent().parent().children('.career-title').text());
+	$('#careerSubTitle').text($(this).parent().parent().children('.career-sub-title').text());
+	$('#careerContent').children().html($(this).parent().parent().children('.career-content').html());
 });

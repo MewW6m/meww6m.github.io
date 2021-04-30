@@ -326,15 +326,19 @@ padding: 30px 0;
 position:relative;
 }
 .demo-content h3 {
-		font-size: 14px;
-margin: 0;
+		font-size: 16px;
+		width: calc(100% - 170px);
+		margin: auto;
 		/*text-transform: uppercase;*/
-		font-weight:500;
 }
 .demo-content h3 a {
-color: #fff;
+	color: #fff;
+	font-weight:100;
 }
-.demo-content h3 a:hover{color:#fb9902;}
+.demo-content h3 a:hover{
+	color:#fb9902;
+	font-weight:100;
+}
 .btn-white {
 background: #fff none repeat scroll 0 0;
 display: inline-block;
@@ -487,6 +491,10 @@ color: #fff !important;
 		background-color: var(--color-contrast-low, #d3d3d4);
 color: #333;
 }
+.modal-open {
+    overflow: hidden !important;
+}
+
 .modal-dialog button,  .modal-dialog button[type="submit"]{
 		background-color: var(--color-contrast-low, #d3d3d4) !important;
 color: #333 !important;
@@ -551,11 +559,9 @@ top: 23px;
 	border: 1px solid white;
     transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
-
 }
 
 #contact:hover{
-
     background: #fb9902;
 	border: 1px solid #fb9902;
 }
@@ -568,4 +574,55 @@ top: 23px;
 	width: 50%;
 	margin: 30px auto 0;
 	display: block;
+}
+#careerdetail  .modal-header {
+	background: rgb(30,30,30);
+}
+
+#careerdetail .modal-body, #careerdetail .modal-footer{
+	background: rgb(45,45,45);
+}
+
+#careerdetail .close {
+	background-color: transparent  !important;
+    color: white !important;
+    font-weight: 100;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#careerdetail .close span {
+	border-radius: 100px;
+	padding: 0 5px;
+}
+
+#careerdetail .close :hover {
+    background: #fb9902 !important;
+}
+
+#careerdetail .modal-header{
+	border-bottom-color: rgb(100,100,100);
+}
+
+#careerdetail .modal-footer {
+	border-top-color: transparent;
+}
+
+#careerdetail .modal-footer button:not(:hover) {
+    border: 1px solid rgb(100,100,100) !important;
+    color: rgb(100,100,100) !important;
+	background-color: transparent !important;
+}
+
+#careerTitle, #careerSubTitle, #careerContent {
+	color: rgb(150,150,150) !important;
+}
+
+#careerSubTitle {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#about .career-content {
+	display: none;
 }
