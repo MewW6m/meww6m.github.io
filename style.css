@@ -641,6 +641,6 @@ top: 23px;
 	max-width: 550px;
 }
 
-.modal-content {
+#careerdetail .modal-content {
     background-color:black !important;
 }
