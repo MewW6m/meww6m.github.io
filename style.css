@@ -641,10 +641,6 @@ top: 23px;
 	max-width: 550px;
 }
 
-#careerdetail {
-    max-height: 50vh;
-    overflow-y: auto;
-}
 #careerdetail .modal-content {
     background-color:black !important;
 }
