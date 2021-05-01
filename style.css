@@ -644,3 +644,13 @@ top: 23px;
 #careerdetail .modal-content {
     background-color:black !important;
 }
+
+#careerdetail #careerContent p {
+	margin-bottom: 15px;
+}
+
+#careerdetail #careerContent .table * {
+	border-color:rgb(100,100,100) !important;
+}
+
+
