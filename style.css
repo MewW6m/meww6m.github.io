@@ -586,6 +586,19 @@ top: 23px;
 	background: rgb(45,45,45);
 }
 
+#contactbox .close {
+	background-color: transparent  !important;
+	color: black !important;
+	font-weight: 100;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+	opacity: .5;
+}
+#contactbox .close:hover {
+	opacity: .8;
+}
+
 #careerdetail .close {
 	background-color: transparent  !important;
     color: white !important;
