@@ -570,9 +570,11 @@ top: 23px;
 
 #careerContent {
 	max-height: 80vh;
-    overflow: scroll;
+    overflow-y: scroll;
 }
-
+#careerContent::-webkit-scrollbar {
+    display: none;
+}
 .modal-content button[type="submit"], #careerdetail .modal-footer button {
 	width: 50%;
 	margin: 30px auto 0;
