@@ -515,6 +515,17 @@ color:white !important;
 margin: auto !important;
 }
 
+#intro{
+	background: #131619 none repeat scroll 0 0;
+	min-height: 30vh;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+#intro *{
+	color:white  !important;
+}
+
 #about{
 		background-color: rgba(0,0,0,.7);
 position:relative;
