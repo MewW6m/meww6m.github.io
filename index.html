@@ -35,8 +35,6 @@
       ============================================ -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" integrity="sha256-Uv9BNBucvCPipKQ2NS9wYpJmi8DTOEfTA/nH2aoJALw=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/glottologist"></script>
-    <script src="js/setGlottologist.js"></script>
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@MewW6m_" />
     <meta property="og:url" content="https://meww6m.github.io/" />
@@ -54,15 +52,15 @@
                 <div class="row">
                   <div class="col-xs-12">
                     <h1>MewW6m</h1>
-                    <h3 glot-model="title">My Portfolio Site</h3>
+                    <h3 glot-model="title">私のポートフォリオ</h3>
                     <p id="intro-spans">
-                      <span><span glot-model="code1">Code</span> <i class="fa fa-code" aria-hidden="true"></i></span>
+                      <span><span glot-model="code1">コード</span> <i class="fa fa-code" aria-hidden="true"></i></span>
                       /
-                      <span><span glot-model="doc1">Documents</span> <i class="fa fa-file-text-o" aria-hidden="true"></i></span>
+                      <span><span glot-model="doc1">ドキュメント</span> <i class="fa fa-file-text-o" aria-hidden="true"></i></span>
                       /
-                      <span><span glot-model="app1">Application</span> <i class="fa fa-mobile" aria-hidden="true"></i></span>
+                      <span><span glot-model="app1">アプリ</span> <i class="fa fa-mobile" aria-hidden="true"></i></span>
                     </p>
-                    <a href="https://github.com/MewW6m/" class="buy-template" glot-model="togithub">GOTO GITHUB</a> 
+                    <a href="https://github.com/MewW6m/" class="buy-template" glot-model="togithub">Githubへ</a> 
                   </div>
                 </div>
               </div>
@@ -75,7 +73,7 @@
       ============================================ -->
     <div class="demo-area">
       <div class="container ptb-100">
-        <h2 class="f_section_title" glot-model="pftitle">Portfolios</h2>
+        <h2 class="f_section_title" glot-model="pftitle">作品</h2>
         <div class="row">
           <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="single-demo text-center">
@@ -83,7 +81,7 @@
                 <a target="_blank" href="https://github.com/MewW6m/kta40thx"><img src="./img/portfolios/kta40thx.png" alt="" /></a>
               </div>
               <div class="demo-content">
-                <h3><a href="https://github.com/MewW6m/kta40thx" target="_blank" glot-model="astronomy">Komazawa University Astronomy Club HP</a></h3>
+                <h3><a href="https://github.com/MewW6m/kta40thx" target="_blank" glot-model="astronomy">駒澤大学天文サークル旧HP</a></h3>
                 <div class="demo-link">
                   <a href="https://github.com/MewW6m/kta40thx" title="コード"><i class="fa fa-code" aria-hidden="true"></i></a>
                   <!--<a href="" title="ドキュメント"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>-->
@@ -159,15 +157,23 @@
       ============================================ -->
     <div id="about">
       <section class="cd-timeline js-cd-timeline">
-        <h2 class="f_section_title" glot-model="crtitle">Career</h2>
+        <h2 class="f_section_title" glot-model="crtitle">経歴</h2>
         <div class="container max-width-lg cd-timeline__container">
           <div class="cd-timeline__block">
             <div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/imac.jpg);"> </div>
             <div class="cd-timeline__content text-component">
-              <h2 class="career-title" glot-model="sc">School Days</h2>
-              <p class="color-contrast-medium career-sub-title" glot-model="sc1">Programmer part-time job at Web venture</p>
-			          <div class="career-content"><p glot-model="sc2"></p><table class="table">
+              <h2 class="career-title" glot-model="sc">学生時代</h2>
+              <p class="color-contrast-medium career-sub-title" glot-model="sc1">Webベンチャーでプログラマーアルバイト</p>
+			          <div class="career-content"><p glot-model="sc2">アルバイトとして1年程Webの自社サービスを開発しているベンチャー企業に入社し、ホームページを修正したり、Webサービスの改修をしたり、サーバーの複製や障害管理を行ったりしました。<br>ここでキャッチアップとして、CUIの操作方法(linuxコマンド一通り)やC言語を学びんだり、業務を通してPHPやJavaScriptを学びました。</p><table class="table">
                   <tbody>
+                    <tr>
+                      <td>期間</td>
+                      <td>11ヵ月</td>
+                    </tr>
+                    <tr>
+                      <td>体制</td>
+                      <td>PL・PM: 1人、SE・PG: 1人、PG: 複数名(私含)</td>
+                    </tr>
                     <tr>
                       <td>担当工程</td>
                       <td>製造・環境構築</td>
@@ -186,29 +192,37 @@
                     </tr>
                     <tr>
                       <td>ツール・ライブラリ</td>
-                      <td>Git・bash・sed・awk</td>
+                      <td>Git・bash・vim・sed・awk</td>
                     </tr>
                   </tbody>
                 </table></div>
-              <div class="flex justify-between items-center"> <span class="cd-timeline__date">16/08-17/06</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="webVenture" glot-model="readmore">Read more</a> </div>
+              <div class="flex justify-between items-center"> <span class="cd-timeline__date">16/08-17/06</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="webVenture" glot-model="readmore">詳細</a> </div>
             </div>
           </div>
           <div class="cd-timeline__block">
             <div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/suits.jpg);"></div>
             <div class="cd-timeline__content text-component">
-              <h2 class="career-title" glot-model="jab">Join a Bank Sier Company</h2>
+              <h2 class="career-title" glot-model="jab">銀行のIT子会社に入社</h2>
               <p class="color-contrast-medium career-sub-title"></p>
-			          <div class="career-content"><p glot-model="jab2"></p></div>
-              <div class="flex justify-between items-center"> <span class="cd-timeline__date">18/04-18/07</span> <a href="#0" class="btn btn--subtlei btn-primary" data-toggle="modal" data-target="#careerdetail" id="enterSier" glot-model="readmore">Read more</a> </div>
+			          <div class="career-content"><p glot-model="jab2">新卒としてとある銀行のIT子会社に入社し、3ヵ月のオフJT研修を経て、ITやビジネスマナーを学びました。</p></div>
+              <div class="flex justify-between items-center"> <span class="cd-timeline__date">18/04-18/07</span> <a href="#0" class="btn btn--subtlei btn-primary" data-toggle="modal" data-target="#careerdetail" id="enterSier" glot-model="readmore">詳細</a> </div>
             </div>
           </div>
           <div class="cd-timeline__block">
             <div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/excel.png);"></div>
             <div class="cd-timeline__content text-component">
-              <h2 class="career-title" glot-model="fir">First project</h2>
-              <p class="color-contrast-medium career-sub-title" glot-model="fir1">Participated in a small-scale Web system revision</p>
-			          <div class="career-content"><p glot-model="fir2"></p><table class="table">
+              <h2 class="career-title" glot-model="fir">１プロジェクト目</h2>
+              <p class="color-contrast-medium career-sub-title" glot-model="fir1">小規模Webシステム改訂案件参画</p>
+			          <div class="career-content"><p glot-model="fir2">毎年の要望改修の小プロジェクトに参画し、ウォーターフォールの開発の流れを学びました。<br>画面・機能設計書の修正や単体・結合テストの作成・実施、リリースの補助を主に担当しました。</p><table class="table">
                   <tbody>
+                    <tr>
+                      <td>期間</td>
+                      <td>3ヵ月</td>
+                    </tr>
+                    <tr>
+                      <td>体制</td>
+                      <td>PL・PM: 1人、SE・PG: 2人(私含)</td>
+                    </tr>
                     <tr>
                       <td>担当工程</td>
                       <td>基本設計・単体テスト・結合テスト・総合テスト・リリース</td>
@@ -231,16 +245,24 @@
                     </tr>
                   </tbody>
                 </table></div>
-              <div class="flex justify-between items-center"> <span class="cd-timeline__date">18/11-19/03</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="firstProject" glot-model="readmore">Read more</a> </div>
+              <div class="flex justify-between items-center"> <span class="cd-timeline__date">18/11-19/03</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="firstProject" glot-model="readmore">詳細</a> </div>
             </div>
           </div>
           <div class="cd-timeline__block">
             <div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/pccode.jpg);"></div>
             <div class="cd-timeline__content text-component">
-              <h2 class="career-title" glot-model="sec">Second project</h2>
-              <p class="color-contrast-medium career-sub-title" glot-model="sec1">Participation in new screen construction project for medium-scale Web system</p>
-			          <div class="career-content"><p glot-model="sec2"></p><table class="table">
+              <h2 class="career-title" glot-model="sec">２プロジェクト目</h2>
+              <p class="color-contrast-medium career-sub-title" glot-model="sec1">中規模Webシステム新規画面構築プロジェクト参画</p>
+			          <div class="career-content"><p glot-model="sec2">元々配属されていたチームの大プロジェクトに参画し、導入されていたミドルウェアのバージョンアップに伴う対応と毎年の要望改修を行いました。<br>画面・機能設計書の修正、実装、単体・結合テストの作成・実施、リリース作業をメインで担当し、実装の経験とウォーターフォール開発の理解を深めることができました。</p><table class="table">
                   <tbody>
+                    <tr>
+                      <td>期間</td>
+                      <td>11ヵ月</td>
+                    </tr>
+                    <tr>
+                      <td>体制</td>
+                      <td>PL: 1人、PM: 2人、SE: 1人、SE・PG: 3人(私含)、PG: 1人</td>
+                    </tr>
                     <tr>
                       <td>担当工程</td>
                       <td>基本設計・実装・単体テスト・結合テスト・総合テスト・リリース</td>
@@ -259,38 +281,117 @@
                     </tr>
                     <tr>
                       <td>ツール・ライブラリ</td>
-                      <td>Excel・AgilePoint・SharePoint・SVN</td>
+                      <td>Excel・AgilePoint・SharePoint・SVN・Slack</td>
                     </tr>
                   </tbody>
                 </table></div>
-              <div class="flex justify-between items-center"> <span class="cd-timeline__date">19/03-20/01</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="secondProject" glot-model="readmore">Read more</a> </div>
+              <div class="flex justify-between items-center"> <span class="cd-timeline__date">19/03-20/01</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="secondProject" glot-model="readmore">詳細</a> </div>
             </div>
           </div>
           <div class="cd-timeline__block">
             <div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/2comp.png);"></div>
             <div class="cd-timeline__content text-component">
-              <h2 class="career-title" glot-model="jas">Join a System Engineering Service Company</h2>
-              <p class="color-contrast-medium career-sub-title"></p>
-                <div class="career-content"><p glot-model="jas2"></p></div>
-              <div class="flex justify-between items-center"> <span class="cd-timeline__date">20/02-20/02</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="enterSES" glot-model="readmore">Read more</a> </div>
+              <h2 class="career-title" glot-model="jas">SES入社</h2>
+              <p class="color-contrast-medium career-sub-title">SESに入社後、某大手SIer会社派遣</p>
+                <div class="career-content"><p glot-model="jas2">転職し、大手のSESに入社し1ヵ月ビジネスマナー研修を受けました。その後、某大手SIer会社派遣されました。</p></div>
+              <div class="flex justify-between items-center"> <span class="cd-timeline__date">20/02-20/02</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="enterSES" glot-model="readmore">詳細</a> </div>
             </div>
           </div>
           <div class="cd-timeline__block">
             <div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/denpatou.jpg);"></div>
             <div class="cd-timeline__content text-component">
-              <h2 class="career-title" glot-model="dbs">Dispatch Big Sier Company</h2>
-              <p class="color-contrast-medium career-sub-title" glot-model="dbs1">Engaged as a programmer in two medium-scale system renovation projects</p>
-                <div class="career-content"><p glot-model="dbs2"></p></div>
-              <div class="flex justify-between items-center"> <span class="cd-timeline__date">20/03-20/06</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="nextFuture" glot-model="readmore">Read more</a> </div>
+              <h2 class="career-title" glot-model="jas">１プロジェクト目</h2>
+              <p class="color-contrast-medium career-sub-title">放送事業者向け経理管理システムの改修案件</p>
+                <div class="career-content"><p glot-model="jas2">1つ目のプロジェクトで基本設計のキャッチアップ後にST仕様書の作成、プログラムバグの修正、STデータ作成、STテストの実施を行いました。</p><table class="table">
+                  <tbody>
+                    <tr>
+                      <td>期間</td>
+                      <td>1ヵ月</td>
+                    </tr>
+                    <tr>
+                      <td>体制</td>
+                      <td>PL・PM: 1人、SE: 2人、 PG: 3人(私含)</td>
+                    </tr>
+                    <tr>
+                      <td>担当工程</td>
+                      <td>ST</td>
+                    </tr>
+                    <tr>
+                      <td>環境・OS</td>
+                      <td>Windows10</td>
+                    </tr>
+                    <tr>
+                      <td>言語・FW</td>
+                      <td>Java・JSP、Vue・JavaScript</td>
+                    </tr>
+                    <tr>
+                      <td>DB</td>
+                      <td>MySQL</td>
+                    </tr>
+                    <tr>
+                      <td>ツール・ライブラリ</td>
+                      <td>Git・IDEA・a5m2・backlog・Slack</td>
+                    </tr>
+                  </tbody>
+                </table></div>
+              <div class="flex justify-between items-center"> <span class="cd-timeline__date">20/02-20/02</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="enterSES" glot-model="readmore">詳細</a> </div>
+            </div>
+          </div>
+          <div class="cd-timeline__block">
+            <div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/helmet-image.jpg);"></div>
+            <div class="cd-timeline__content text-component">
+              <h2 class="career-title" glot-model="dbs">２プロジェクト目</h2>
+              <p class="color-contrast-medium career-sub-title" glot-model="dbs1">工事現場向け危機管理システムの小規模改修案件</p>
+                <div class="career-content"><p glot-model="dbs2">セキュリティ要件に沿った複数の改修要望に対応しました。主に、実装やUTを担当しました。(設計書の修正が必要なときのみ画面設計書やメッセージ設計書、機能設計書等の修正しました。)<br>Webはもちろん、Androidアプリの方も実装修正を行いました。</p><table class="table">
+                  <tbody>
+                    <tr>
+                      <td>期間</td>
+                      <td>2ヵ月</td>
+                    </tr>
+                    <tr>
+                      <td>体制</td>
+                      <td>PL・PM: 1人、SE・PG: 2人(私含)</td>
+                    </tr>
+                    <tr>
+                      <td>担当工程</td>
+                      <td>基本設計・詳細設計・実装・UT</td>
+                    </tr>
+                    <tr>
+                      <td>環境・OS</td>
+                      <td>Windows10・Android</td>
+                    </tr>
+                    <tr>
+                      <td>言語・FW</td>
+                      <td>Java・PlayFramework・JavaScript・PostGIS</td>
+                    </tr>
+                    <tr>
+                      <td>DB</td>
+                      <td>PostgreSQL</td>
+                    </tr>
+                    <tr>
+                      <td>ツール・ライブラリ</td>
+                      <td>PostGIS・a5m2・AndroidStudio・IDEA・Slack・Teams</td>
+                    </tr>
+                  </tbody>
+                </table></div>
+              <div class="flex justify-between items-center"> <span class="cd-timeline__date">20/03-20/06</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="nextFuture" glot-model="readmore">詳細</a> </div>
             </div>
           </div>
           <div class="cd-timeline__block">
             <div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/psyjpg.jpg);"></div>
             <div class="cd-timeline__content text-component">
-              <h2 class="career-title" glot-model="psy">Dispatch Big Sier Company</h2>
-              <p class="color-contrast-medium career-sub-title" glot-model="psy1">Engaged as a programmer in two medium-scale system renovation projects</p>
-                <div class="career-content"><p glot-model="psy2"></p><table class="table">
+              <h2 class="career-title" glot-model="psy">３プロジェクト目</h2>
+              <p class="color-contrast-medium career-sub-title" glot-model="psy1">配送業者向け管理システム新規開発</p>
+                <div class="career-content"><p glot-model="psy2">初めて、新規で1からシステムの開発を行いました。<br>要求仕様書を基に、PMと共に基本設計書と詳細設計書を起こし、実装、テストを行いました。<br>特に実装と環境周りは僕がメインに担当し、FWを使用してシステムのベース(認証、パス制御、ログ・メッセージ出力等)を作り、サーバーを整え、デプロイしました。また、コードレビュー、コーディング規約の作成、設計の指摘等も積極的に行うことで品質の向上を図りました。</p><table class="table">
                   <tbody>
+                    <tr>
+                      <td>期間</td>
+                      <td>6ヵ月</td>
+                    </tr>
+                    <tr>
+                      <td>体制</td>
+                      <td>PM・PL: 1人、SE・PG: 1人(私含) 、PG: 1人<br>-> PM・PL: 1人、SE: 1人、SE・PG: 1人(私含)、PG:3人以上</td>
+                    </tr>
                     <tr>
                       <td>担当工程</td>
                       <td>基本設計・詳細設計・実装・単体テスト・結合テスト・総合テスト・環境構築</td>
@@ -309,20 +410,28 @@
                     </tr>
                     <tr>
                       <td>ツール・ライブラリ</td>
-                      <td>Git・SVN・IDEA・Swagger</td>
+                      <td>Git・SVN・IDEA・Swagger・Slack・Teams</td>
                     </tr>
                   </tbody>
                 </table></div>
-              <div class="flex justify-between items-center"> <span class="cd-timeline__date">20/06 - 20/11</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="nextFuture" glot-model="readmore">Read more</a> </div>
+              <div class="flex justify-between items-center"> <span class="cd-timeline__date">20/06 - 20/11</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="nextFuture" glot-model="readmore">詳細</a> </div>
             </div>
           </div>
           <div class="cd-timeline__block">
             <div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/PASONA_4_TP_V.jpg);"></div>
             <div class="cd-timeline__content text-component">
-              <h2 class="career-title" glot-model="psys">Dispatch Big Sier Company</h2>
-              <p class="color-contrast-medium career-sub-title" glot-model="psys1">Engaged as a programmer in two medium-scale system renovation projects</p>
-                <div class="career-content"><p glot-model="psys2"></p><table class="table">
+              <h2 class="career-title" glot-model="psys">４プロジェクト目</h2>
+              <p class="color-contrast-medium career-sub-title" glot-model="psys1">配送業者向け管理システム改修</p>
+                <div class="career-content"><p glot-model="psys2">前回の新規構築のバグの改修や仕様ミス・仕様漏れの改修をメインに行いました。<br>また、前回テストが甘くバグが頻発したところに関して、UTテストを再作成・再実施したり、設計と実装の乖離を調査分析し修正したり、全面的なコードのリファクタリングを行うことで、品質の向上を図りました。</p><table class="table">
                   <tbody>
+                    <tr>
+                      <td>期間</td>
+                      <td>2ヵ月</td>
+                    </tr>
+                    <tr>
+                      <td>体制</td>
+                      <td>PM・PL: 1人、SE・PG: 1人(私含) 、PG: 1人</td>
+                    </tr>
                     <tr>
                       <td>担当工程</td>
                       <td>詳細設計・実装・単体テスト・結合テスト・総合テスト・環境構築</td>
@@ -341,20 +450,28 @@
                     </tr>
                     <tr>
                       <td>ツール・ライブラリ</td>
-                      <td>Git・SVN・IDEA・Swagger・a5m2・Excel</td>
+                      <td>Git・SVN・IDEA・Swagger・a5m2・Excel・Slack・Teams</td>
                     </tr>
                   </tbody>
                 </table></div>
-              <div class="flex justify-between items-center"> <span class="cd-timeline__date">20/11 - 21/01</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="nextFuture" glot-model="readmore">Read more</a> </div>
+              <div class="flex justify-between items-center"> <span class="cd-timeline__date">20/11 - 21/01</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="nextFuture" glot-model="readmore">詳細</a> </div>
             </div>
           </div>
           <div class="cd-timeline__block">
             <div class="cd-timeline__img cd-timeline__img--picture" style="background: url(img/portfolios/oto.jpeg);"></div>
             <div class="cd-timeline__content text-component">
-              <h2 class="career-title" glot-model="voi">Dispatch Big Sier Company</h2>
-              <p class="color-contrast-medium career-sub-title" glot-model="voi1">Engaged as a programmer in two medium-scale system renovation projects</p>
-                <div class="career-content"><p glot-model="voi2"></p><table class="table">
+              <h2 class="career-title" glot-model="voi">５プロジェクト目</h2>
+              <p class="color-contrast-medium career-sub-title" glot-model="voi1">工事現場向け点呼システムの新規構築</p>
+                <div class="career-content"><p glot-model="voi2">2プロジェクト目で参画した「工事現場向け危機管理システム」をベースに1システムを短期間で開発しました。<br>担当は基本設計、詳細設計、実装、テストとほぼ一人で行い、それを上司にレビューしてもらう形を取りました。<br>特段大きな問題も起こることなく無事クローズしました。</p><table class="table">
                   <tbody>
+                    <tr>
+                      <td>期間</td>
+                      <td>2ヵ月</td>
+                    </tr>
+                    <tr>
+                      <td>体制</td>
+                      <td>PM・PL: 1人、SE・PG: 1人(私含) 、PG: 1人</td>
+                    </tr>
                     <tr>
                       <td>担当工程</td>
                       <td>基本設計・詳細設計・実装・単体テスト・結合テスト・総合テスト</td>
@@ -373,12 +490,12 @@
                     </tr>
                     <tr>
                       <td>ツール・ライブラリ</td>
-                      <td>Git・SVN・IDEA・a5m2・Excel・PostGIS</td>
+                      <td>Git・SVN・IDEA・a5m2・Excel・PostGIS・Slack・Teams</td>
                     </tr>
                   </tbody>
                 </table>
                 </div>
-              <div class="flex justify-between items-center"> <span class="cd-timeline__date">21/02 - 21/03</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="nextFuture" glot-model="readmore">Read more</a> </div>
+              <div class="flex justify-between items-center"> <span class="cd-timeline__date">21/02 - 21/03</span> <a href="#0" class="btn btn--subtle btn-primary" data-toggle="modal" data-target="#careerdetail" id="nextFuture" glot-model="readmore">詳細</a> </div>
             </div>
           </div>
         </div>
@@ -389,22 +506,22 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="bio-charts">
-              <h2 id="t1" class="f_section_title" glot-model="sktitle">Skill</h2>
-              <h2 id="t2" class="f_section_title" glot-model="sktitle2" style="display:none;">Will Skill</h2>
+              <h2 id="t1" class="f_section_title" glot-model="sktitle">技術</h2>
+              <h2 id="t2" class="f_section_title" glot-model="sktitle2" style="display:none;">欲しい技術</h2>
               <div class="chart-container col-lg-6" style="position:relative;">
-                <h4 glot-model="pgl">ProgrammingLanguage</h4>
+                <h4 glot-model="pgl">言語</h4>
                 <canvas id="myChart1"></canvas>
               </div>
               <div class="chart-container col-lg-6" style="position:relative;">
-                <h4 glot-model="fw">FrameWork</h4>
+                <h4 glot-model="fw">フレームワーク</h4>
                 <canvas id="myChart2"></canvas>
               </div>
               <div class="chart-container col-lg-6" style="position:relative;">
-                <h4 glot-model="sp">SystemProcess</h4>
+                <h4 glot-model="sp">工程</h4>
                 <canvas id="myChart3"></canvas>
               </div>
               <div class="chart-container col-lg-6" style="position:relative;">
-                <h4 glot-model="dev">DevTools</h4>
+                <h4 glot-model="dev">ツール</h4>
                 <canvas id="myChart4"></canvas>
               </div>
               <div class="chart-container col-xs-12">
@@ -424,10 +541,10 @@
         <div class="row">
           <div class="col-xs-12">
             <div class="footer-logo col-xs-12 text-center">
-              <h2 glot-model="thxsee">Thanks for visiting</h2>
+              <h2 glot-model="thxsee">ご覧頂きありがとうございました</h2>
             </div>
             <div class="footer-logo col-xs-12 text-center">
-              <button id="contact" glot-model="contactbutton" data-toggle="modal" data-target="#contactbox" >Contact</button>
+              <button id="contact" glot-model="contactbutton" data-toggle="modal" data-target="#contactbox" >お問い合わせ</button>
             </div>
             <div class="footer-social col-xs-12 text-center">
               <!--https://fontawesome.com/v4.7.0/icons/--><a href="https://twitter.com/MewW6m_" title="Twitter"><i class="fa fa-twitter"></i></a> <a href="https://qiita.com/MewW6m" title="Qitta"><i class="fa fa-quora"></i></a> <a href="https://github.com/MewW6m/" title="Github"><i class="fa fa-github-alt"></i></a> <a href="#" title="リンク切れ"><i class="fa fa-external-link "></i></a> <a href="#" title="リンク切れ"><i class="fa fa-external-link-square"></i></a> 
@@ -462,30 +579,30 @@
         <div class="modal-content">
           <div class="modal-header">
             <h4>
-              <div class="modal-title" id="myModalLabel" glot-model="contactbutton">Contact</div>
+              <div class="modal-title" id="myModalLabel" glot-model="contactbutton">お問い合わせ</div>
             </h4>
           </div>
           <div class="modal-body">
             <div>
               <form action="https://mailthis.to/nexwind@yahoo.co.jp" method="POST">
 				<div class="form-group">
-					<label for="form1" glot-model="yourname">Your Name</label>
+					<label for="form1" glot-model="yourname">氏名</label>
                 	<input type="text" class="form-control" name="name" placeholder="山田太郎" id="form1"> 
 				</div>
 				<div class="form-group">
-					<label for="form2" glot-model="email">Email</label>
+					<label for="form2" glot-model="email">メールアドレス</label>
                 	<input type="email" class="form-control" name="_replyto" placeholder="test@test.com" id="form2">
 				</div>
 				<div class="form-group">
-					<label for="form3" glot-model="message">Message</label>
+					<label for="form3" glot-model="message">要件</label>
                 	<textarea name="message" class="form-control" id="form3"></textarea>
 				</div>
-				<button type="submit" class="btn btn-primary mt-2" glot-model="send">send</button>
+				<button type="submit" class="btn btn-primary mt-2" glot-model="send">送信</button>
               </form>
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal" glot-model="close">Close</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal" glot-model="close">閉じる</button>
           </div>
         </div>
       </div>
@@ -502,16 +619,13 @@
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
-			<div id="careerContent" class="modal-body"><div class="career-content">test</div></div>
+			<div id="careerContent" class="modal-body"><div class="career-content"></div></div>
 			<div class="modal-footer">
-			  <button type="button" class="btn btn-default btn-block" data-dismiss="modal" glot-model="close">Close</button>
+			  <button type="button" class="btn btn-default btn-block" data-dismiss="modal" glot-model="close">閉じる</button>
 			</div>
 		  </div>
 		</div>
 	  </div>
-    <div id="languageblock">
-      <span id="jal">日本語</span> / <span id="enl">English</span>
-    </div>
     <!-- JS -->
     <!-- jQuery JS
       ============================================ -->
