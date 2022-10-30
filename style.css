@@ -684,4 +684,6 @@ top: 23px;
 	border-color:rgb(100,100,100) !important;
 }
 
-
+.footer-social a:hover {
+	background: #fb9902!important;
+}
